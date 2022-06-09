@@ -1,0 +1,54 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: #f9faf8;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.upper {
+    display: flex;
+    flex-direction: row;
+    background-color: #1f2937;
+    justify-content: space-between;
+}
+
+.left {
+    flex-direction: column;
+    color: #f9faf8;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    
+
+}
+
+.right {
+    padding-right: 100px;
+}
+
+.middle {
+    flex-direction: row;
+}
+
+.lower {
+    flex-direction: column;
+    background-color: #e5e7eb;
+}
+.quote {
+
+}
+
+.quoter {
+    justify-content: right;
+}
