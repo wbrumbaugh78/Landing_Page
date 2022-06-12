@@ -1,0 +1,147 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header, .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: navy;
+    color: azure;
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+    padding: 10px;
+}
+
+.upper, .illustrations, .sign_up {
+    display: flex;
+    flex-direction: row;
+}
+
+.left, .middle, .lower, .action_left {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    font-size: 32px;
+}
+
+.links {
+    align-self: center;
+}
+
+.upper {
+    justify-content: space-between;
+    background-color:  navy;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.left {
+    color: azure;
+    flex-basis: 250px;
+
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.desc {
+    font-size: 12px;
+
+}
+
+.button1 {
+    padding-top: 5px;
+
+}
+
+.right {
+
+}
+
+.middle {
+    padding: 20px;
+}
+
+.random {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.illustrations {
+    justify-content: center;
+
+}
+
+.ill_1, .ill_2, .ill_3, .ill_4 {    
+    flex-basis: 100px;
+    padding: 10px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.lower {
+    background-color: darkgray;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.quote {
+    font-size: 25px;
+    font-style: italic;
+}
+
+.quoter {
+    text-align: right;
+    font-weight: bold;
+}
+
+.sign_up {
+    justify-content: space-around;
+    background-color: royalblue;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    align-items: center;
+}
+
+.action_left {
+    color: azure;
+}
+
+.action {
+
+}
+
+.action_text {
+    font-size: 10px;
+}
+
+.button2 {
+
+}
+
+.footer {
+    justify-content: center;
+}
